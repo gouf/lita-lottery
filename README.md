@@ -7,13 +7,17 @@ TODO: Add a description of the plugin.
 Add lita-lottery to your Lita instance's Gemfile:
 
 ``` ruby
-gem "lita-lottery"
+gem 'lita-lottery', git: 'https://github.com/gouf/lita-lottery'
 ```
 
 ## Configuration
 
-TODO: Describe any configuration attributes the plugin exposes.
+Before to use, please set environment variable `CSV_USER_NAMES`
+
+Like: `export CSV_USER_NAMES=John,Alice,Bob`
 
 ## Usage
 
-TODO: Describe the plugin's features and how to use them.
+Integrate your own lita bot.
+
+And just mention to `@lita lottery`, then someone gets notification.
